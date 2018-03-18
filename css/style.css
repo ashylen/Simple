@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('AvenirLTStd-Light.woff') format('woff');
+}
+
+.bg-darkblue {
+    background-color: #023a5c;
+}
+
+h5 {
+    color: #023a5c;
+}
+
+.container {
+    font-family: 'Avenir LT Std 35 Light';
+    width: 1001px;
+}
+
+.col {
+    column-count: 2;
+    text-align: justify;
+}
+
+ul {
+    font-family: 'Avenir LT Std 35 Light';
+    font-weight: bold;
+    padding-top: 100px;
+    height: 100%;
+    width: 180px;
+}
+
+#form {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.form-control {
+    display: inline-block;
+    width: 150px;
+}
+
+.form-container {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 250px;
+
+}
+
+.flex-column {
+
+    box-shadow: 0px 0px 28px -15px rgba(199, 199, 199, 0.75);
+}
+
+#left-menu {
+
+    font-size: 10px;
+}
+
+.left-menu-nav {
+    background: white;
+    height: 100%;
+    top: 0 !important;
+    float: right;
+
+    left: 0px;
+    box-shadow: 10px 10px 28px -15px rgba(199, 199, 199, 0.75);
+    cursor: pointer;
+}
+
+.navbar-brand {
+    box-shadow: 10px 10px 24px -15px rgba(199, 199, 199, 0.75);
+    width: 254px;
+
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    text-decoration: underline;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    margin-left: 255px;
+
+}
+
+p {
+    font-size: small;
+    font-family: 'Avenir LT Std 35 Light';
+}
+
+.search-engine {
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-filter: invert();
+    position: absolute;
+    top: 15px;
+    right: 5px;
+
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        width: 100%;
+    }
+
+    .col {
+        column-count: 1;
+    }
+
+    .form-container {
+        display: none;
+    }
+
+    .navbar-nav {
+        margin-left: 1px !important;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .form-container {
+        display: none;
+    }
+}
+
+@media (max-width: 1355px) {
+    .navbar-nav {
+        margin-left: 200px;
+    }
+
+    .container {
+        padding-left: 20%;
+    }
+
+    #left-menu {
+        display: none;
+    }
+
+    .navbar-brand {
+
+        width: 200px
+    }
+}
+
+@media (max-width: 1460px) {
+    .container {
+        padding-left: 5%;
+    }
+
+    .pl-5 {
+
+        padding-left: 2rem !important;
+    }
+}
+
